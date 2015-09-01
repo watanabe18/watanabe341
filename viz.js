@@ -6,7 +6,7 @@
  * - The options for the look of the chart to be drawn.
  * - How to draw the chart.
  *
- * @author: Tanya L. Crenshaw
+ * @author: Tanya L. Crenshaw, David Watanabe
  * @since: Jan 6, 2015
  */
 
@@ -57,6 +57,10 @@ function drawChart() {
         },
 	legend: { 
 	    position: 'none' 
+	},
+	animation: {
+		"startup" : true,
+		"duration" : 500
 	}
     };
 
