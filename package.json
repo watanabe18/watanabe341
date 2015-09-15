@@ -1,0 +1,25 @@
+{
+  "name": "watanabe341",
+  "version": "0.0.1",
+  "description": "Heroku app for CS341",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x"
+  },
+  "engines": {
+    "node": "0.12.2"
+  },
+  "repository": {
+     "type": "git",
+     "url": "https://github.com/watanabe18/watanabe341"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}

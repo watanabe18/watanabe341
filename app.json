@@ -1,0 +1,6 @@
+{
+  "name": "watanabe341"
+  "description": "Heroku app for CS341",
+  "repository": "https://github.com/watanabe18/watanabe341",
+  "keywords": ["node", "express", "static"]
+}
