@@ -22,6 +22,17 @@ var toggle = function() {
 	}
 };
 
+var fetch = function() {
+	
+	var yr = document.getElementById('year');
+	var val = yr.value;
+	
+	console.log(val);
+	
+	vizController(val);
+	
+}
+
 var initialize = function() {
 
     console.log('Initialize!');
@@ -33,6 +44,14 @@ var initialize = function() {
     // From this point forward, when the button is clicked, the                                                                   
     // toggle function shall be invoked.                                                                                           
     button.onclick = toggle;
+    
+    // Grab the 'Submit' button element, identified by the                                       
+    // 'submit-btn' id.                                                                          
+    button = document.getElementById('submit-btn');
+
+    // From this point forward, when the button is clicked, the                                 
+    // fetch function shall be invoked.                                                          
+    button.onclick = fetch;
 
 };
 
